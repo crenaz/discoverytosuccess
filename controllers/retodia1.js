@@ -1,0 +1,11 @@
+var express = require('express');
+var router = require('express').Router();
+var path = require('path');
+
+router.use(express.static(__dirname + '/../assets'));
+
+router.get('/retodia1', function (req, res) {
+    res.sendFile('retodia1.html', { root: path.join(__dirname, '../views') });
+});
+
+module.exports = router;
