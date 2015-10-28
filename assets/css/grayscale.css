@@ -36,6 +36,11 @@ p {
     line-height: 1.5;
 }
 
+IMG.displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto }
+
 @media(min-width:768px) {
     p {
         margin: 0 0 35px;
