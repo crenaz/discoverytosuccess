@@ -10,6 +10,6 @@
   "author": "Efraín_Muñoz-Coreano && Agustin_Crespo-Nazario",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.13.3"
+    "express": "^4.19.2"
   }
 }
